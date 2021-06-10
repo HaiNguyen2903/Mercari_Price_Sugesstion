@@ -25,12 +25,12 @@ Ridge Regression | No | One hot Encoding + TFIDF | 0.5563
 Ridge Regression | Yes | One hot Encoding + TFIDF |0.4793
 RidgeCV | No | One hot Encoding + TFIDF | 0.4372
 RidgeCV | Yes | One hot Encoding + TFIDF | 0.4310
-SVR | No | One hot Encoding + TFIDF | 0.5111
-SVR | Yes | One hot Encoding + TFIDF | 0.4715
-SGDR | Yes | One hot Encoding + TFIDF | 0.4325
-LGBM | Yes | One hot Encoding + TFIDF | 0.4618
-Simple MLP | Yes | One hot Encoding + Glove100d | **0.4275**
-CNN | Yes | One hot Encoding + Glove200d | 0.4386
+Support Vector Regression | No | One hot Encoding + TFIDF | 0.5111
+Support Vector Regression | Yes | One hot Encoding + TFIDF | 0.4715
+Stochastic Gradient Regression | Yes | One hot Encoding + TFIDF | 0.4325
+Light Gradient Boosting Method | Yes | One hot Encoding + TFIDF | 0.4618
+Simple Multi Layer Perceptron | Yes | One hot Encoding + Glove100d | **0.4275**
+Convolutional Neural Network | Yes | One hot Encoding + Glove200d | 0.4386
 
 
 Since the train dataset is splitted 10% to create the new test dataset, so we train only on 90% of the original train dataset. Although the test dataset is not official and not as large as that in the second stage, but I belive that this result is fair enough compare to other team in Stage 1 of the competiton.
