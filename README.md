@@ -20,7 +20,7 @@ There are some data versions that are created using diffirent embedding methods.
 We tried several models with different data versions to find out the best approach. In summary, here are our experiments's performance:
 
 Mô hình | Preprocessing | Encoded Methods | RMSLE 
---- | --- | --- 
+--- | --- | --- | ---
 Ridge Regression | No | One hot Encoding + TFIDF | 0.5563
 Ridge Regression | Yes | One hot Encoding + TFIDF |0.4793
 RidgeCV | No | One hot Encoding + TFIDF | 0.4372
